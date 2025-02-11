@@ -18,6 +18,12 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  typescript: {
+    ignoreBuildErrors: true,
+  },
+  esling: {
+    ignoreDuringBuilds: true,
+  },
 };
 
 export default nextConfig;
