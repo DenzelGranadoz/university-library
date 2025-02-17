@@ -11,9 +11,10 @@ const BookOverview = ({
   totalCopies,
   availableCopies,
   description,
-  color,
+  coverColor,
   coverUrl,
 }: Book) => {
+  console.log("cover", coverUrl);
   return (
     <section className="book-overview">
       <div className="flex flex-1 flex-col gap-5">
@@ -54,14 +55,14 @@ const BookOverview = ({
             <BookCover
               variant="wide"
               className="z-10"
-              coverColor={color}
+              coverColor={coverColor}
               coverImage={coverUrl}
             />
 
             <div className="absolute left-16 top-10 rotate-12 opacity-40 max-sm:hidden">
               <BookCover
                 variant="wide"
-                coverColor={color}
+                coverColor={coverColor}
                 coverImage={coverUrl}
               />
             </div>
