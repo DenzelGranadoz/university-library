@@ -8,6 +8,13 @@
       "when": 1739105157254,
       "tag": "0000_famous_jean_grey",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1739789862106,
+      "tag": "0001_right_masked_marvel",
+      "breakpoints": true
     }
   ]
 }
